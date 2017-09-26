@@ -15,7 +15,7 @@ const __meta__ = {
 export class PawLoader {
   static extensions = __meta__.extensions
   static parsable = __meta__.parsable
-  static format = __meta__.format
+  static const format = __meta__.format
 
   /**
    * Resolves a URI and fixes it if necessary.

@@ -1,9 +1,11 @@
 // TODO this is not what we want (this should happen in ./loaders/loaders, ./parsers/parsers, etc.)
-import environment from './environments/environment'
-import loaders from './loaders/loaders'
-import parsers from './parsers/parsers'
-import serializers from './serializers/serializers'
-import { currify } from './utils/fp-utils'
+import environment from './environments/environment.mjs'
+//import loaders from './loaders/loaders.mjs'
+//import parsers from './parsers/parsers.mjs'
+//import serializers from './serializers/serializers.mjs'
+import { currify } from './utils/fp-utils.mjs'
+
+export const foo = 'bar';
 
 const methods = {}
 

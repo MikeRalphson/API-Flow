@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { parse } from 'url'
+import { parse } from '../../shim.mjs' // was url
 import request from 'request'
 
 let cache = {}
